@@ -1,7 +1,7 @@
 from flask import Flask
 from BBS.setting import config
 from BBS.__about__ import appname
-from BBS.api import api
+from BBS.api.source import api
 from BBS.model.tables import db
 from flask_migrate import Migrate
 
